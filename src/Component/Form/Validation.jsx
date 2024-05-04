@@ -21,6 +21,4 @@ export const Validation = (formData) => {
   } else if (!passwordpatern.test(formData.password)) {
     errors.password = "Password not valid";
   }
-
-  return errors;
 };
